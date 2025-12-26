@@ -133,16 +133,19 @@ export const Hero = () => {
                     <span className="text-sm font-medium whitespace-nowrap">Available for work</span>
                   </div>
                 </div>
+                {/* Stats Badge */}
+                <div className="absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float animation-delay-500">
+                  <div className="text-2xl font-bold text-primary">Tulsa</div>
+                  <div className="text-xs text-muted-foreground">Oklahoma</div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-
-      {/* Skills Section - FIXED: Added return and proper container */}
       <div className="mt-auto py-5 relative z-20 animate-fade-in animation-delay-600 bg-background/40 backdrop-blur-xs border-t border-white/5">
         <p className="text-xs uppercase tracking-widest text-muted-foreground/60 mb-8 text-center font-medium">
-          Technologies I work with
+          Tools + Technologies I work with
         </p>
         <div className="relative overflow-hidden w-full">
           <div className="flex animate-marquee whitespace-nowrap items-center">
