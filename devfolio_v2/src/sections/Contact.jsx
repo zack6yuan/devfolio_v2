@@ -94,14 +94,13 @@ export const Contact = () => {
             Get In Touch
           </span>
           <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground">
-            Let's build{" "}
+            Ready to drive results{" "}
             <span className="font-serif italic font-normal text-white">
-              something great.
+              for your team.
             </span>
           </h2>
           <p className="text-muted-foreground animate-fade-in animation-delay-200">
-            Have a project in mind? I'd love to hear about it. Send me a message
-            and let's discuss how we can work together.
+            Available for full-time or contract opportunities. Download my résumé above, or send a message to start the conversation.
           </p>
         </div>
 
@@ -232,12 +231,12 @@ export const Contact = () => {
             {/* Availability Card */}
             <div className="glass rounded-3xl p-8 border border-primary/30">
               <div className="flex items-center gap-3 mb-4">
-                <span className="w-3 h-3 bg-green-500 rounded-full animate-pulse" />
+                <span className="w-3 h-3 bg-[#1eff00] rounded-full animate-pulse" />
                 <span className="font-medium">Currently Available</span>
               </div>
               <p className="text-muted-foreground text-sm">
                 I'm currently open to new opportunities and exciting projects.
-                Whether you need a full-time engineer or a freelance consultant,
+                Whether you need a full-time engineer or a contract developer,
                 let's talk!
               </p>
             </div>

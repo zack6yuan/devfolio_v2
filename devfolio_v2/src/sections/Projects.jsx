@@ -5,7 +5,7 @@ const projects = [
   {
     title: "Aeroduel",
     description:
-      "The culmintation of my 20 months of development at Atlas School. A real-time aerial combat battle-simulator that implements WebSockets for client and server communication. The H7 Cam Plus' on our 3D printed RC planes lock on to each others lights, sends the hit confirmation to our server, and alerts our app.",
+      "As the lead mobile developer and designer for my Atlas School capstone, my team and I architected a real-time aerial combat simulator. I designed the end-to-end user experience and developed the mobile interface that communicates via WebSockets with 3D-printed RC planes. By integrating computer vision data from H7 Cam Plus sensors into a responsive app, I successfully bridged complex hardware signals with an intuitive, high-performance digital dashboard.",
     image: "/aeroduel.jpeg",
     tags: [
       "React",
@@ -20,17 +20,18 @@ const projects = [
     github: "https://www.github.com/Aeroduel",
   },
   {
-    title: "Lumigram",
+    title: "Melodiic",
     description:
-      "An Instagram clone that replicates the core features of the Instagram mobile app. The user's feed is populated by images that are posted and stored in Firebase. The application leverages Firebase Authentication for secure user access and Firestore for real-time data synchronization across the client interface.",
-    image: "/lumigram.png",
-    tags: ["React Native", "Google Firebase", "Expo"],
-    github: "https://www.github.com/zack6yuan/atlas-lumigram",
+      "Developed a visually refined, accessible music player UI that prioritizes seamless navigation across playlists and account features. By leveraging modern layout patterns and Bootstrap, I ensured full mobile-to-desktop responsiveness, while implementing cookie-based persistence for a consistent user experience. This project highlights my ability to build functional, high-performance interfaces.",
+    image: "/melodiic.png",
+    tags: ["HTML", "CSS", "TailwindCSS", "JavaScript"],
+    link: "https://www.youtube.com/watch?v=nhwOezHkQ4c",
+    github: "https://github.com/BoostedT/Melodiic?tab=readme-ov-file",
   },
   {
-    title: "Diinker",
+    title: "Diinker (In Progress)",
     description:
-      "My current personal project. An intuitive pickleball experience that combines hardware and software. Practicing covering the full development lifecycle, and combining my technical skills with my personal interests. Built to bridge the gap between athletic performance and digital analytics.",
+      "I am currently developing an end-to-end IoT solution for pickleball players, synchronizing hardware components with a robust software suite. This project serves as a deep dive into the full development lifecycle, requiring a sophisticated blend of data processing, responsive UI design, and hardware-software synergy. It’s a showcase of my ability to translate complex physical movements into actionable digital insights.",
     image: "/diinker.png",
     tags: ["React", "TypeScript", "React Native", "Google Firebase", "Vercel", "Expo"],
     link: "https://diinker-web.vercel.app",

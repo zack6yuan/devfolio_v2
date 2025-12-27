@@ -1,20 +1,29 @@
 const experiences = [
   {
     period: "2024 — 2025",
-    role: "Student",
-    company: "Atlas School",
+    role: "Computer Science & Full-Stack Web Development",
+    company: "Atlas School - Tulsa, Oklahoma",
     description:
-      "My software engineering education at Atlas School, a 20-month peer and project-based program in Tulsa, Oklahoma, took me from the basics of C programming to the complexities of Full-Stack Web Development, covering Front-End, Back-End, and DevOps. Graduated in December of 2025",
-    technologies: ["Diploma in Computer Science & Full-Stack Web Development"],
+      "My software engineering education at Atlas School, a 20-month peer and project-based program in Tulsa, Oklahoma, took me from the basics of C programming to the complexities of Full-Stack Web Development, covering Front-End, Back-End, and DevOps. Received my diploma, and graduated in December of 2025",
+    technologies: ["Tulsa, Oklahoma"],
     current: true,
   },
   {
-    period: "2024 — 2025",
-    role: "Student",
-    company: "Cascia Hall Preparatory",
+    period: "2024 — Present",
+    role: "Head Cashier",
+    company: "Lowe's Home Improvment - Tulsa, Oklahoma",
     description:
-      "Attended Cascia Hall Preparatory School in Tulsa, Oklahoma, and graduated in May of 2021.",
-    technologies: ["High School Diploma"],
+      "Oversee and manage a team of cashiers, ensuring they adhere to company policies and procedures. Train new cashiers on register operations and customer service protocols.",
+    technologies: ["Tulsa, Oklahoma"],
+    current: true,
+  },
+  {
+    period: "2014 — 2021",
+    role: "Student",
+    company: "Cascia Hall Preparatory School - Tulsa, Oklahoma",
+    description:
+      "Attended Cascia Hall Preparatory School in Tulsa, Oklahoma, and received a High School Diploma in May of 2021.",
+    technologies: ["Tulsa, Oklahoma"],
     current: false,
   },
 ];

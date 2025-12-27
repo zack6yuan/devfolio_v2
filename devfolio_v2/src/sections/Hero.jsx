@@ -76,13 +76,13 @@ export const Hero = () => {
             </div>
             
             <div className="space-y-4">
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight animate-fade-in animation-delay-100">
-                Crafting <span className="text-primary glow-text">digital</span>
+              <h1 className="text-5xl md:text-6xl 2xl:text-7xl font-bold leading-tight animate-fade-in animation-delay-100">
+                Engineering <span className="text-primary glow-text">digital</span>
                 <br />
                 experiences with
                 <br />
                 <span className="font-serif italic font-normal text-white">
-                  precision.
+                  technical precision.
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
