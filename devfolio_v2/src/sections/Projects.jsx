@@ -23,7 +23,7 @@ const projects = [
     title: "Lumigram",
     description:
       "An Instagram clone that replicates the core features of the Instagram mobile app. The user's feed is populated by images that are posted and stored in Firebase. The application leverages Firebase Authentication for secure user access and Firestore for real-time data synchronization across the client interface.",
-    image: "/profile-photo.png",
+    image: "/lumigram.png",
     tags: ["React Native", "Google Firebase", "Expo"],
     github: "https://www.github.com/zack6yuan/atlas-lumigram",
   },
@@ -31,7 +31,7 @@ const projects = [
     title: "Diinker",
     description:
       "My current personal project. An intuitive pickleball experience that combines hardware and software. Practicing covering the full development lifecycle, and combining my technical skills with my personal interests. Built to bridge the gap between athletic performance and digital analytics.",
-    image: "/profile-photo.png",
+    image: "/diinker.png",
     tags: ["React", "TypeScript", "React Native", "Google Firebase", "Vercel", "Expo"],
     link: "https://diinker-web.vercel.app",
     github: "https://www.github.com/Diinker",
@@ -129,14 +129,6 @@ export const Projects = () => {
               </div>
             </div>
           ))}
-        </div>
-
-        {/* View All CTA */}
-        <div className="text-center mt-12 animate-fade-in animation-delay-500">
-          <AnimatedBorderButton>
-            View All Projects
-            <ArrowUpRight className="w-5 h-5" />
-          </AnimatedBorderButton>
         </div>
       </div>
     </section>
