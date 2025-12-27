@@ -6,7 +6,7 @@ const projects = [
     title: "Aeroduel",
     description:
       "The culmintation of my 20 months of development at Atlas School. A real-time aerial combat battle-simulator that implements WebSockets for client and server communication. The H7 Cam Plus' on our 3D printed RC planes lock on to each others lights, sends the hit confirmation to our server, and alerts our app.",
-    image: "/profile-photo.png",
+    image: "/aeroduel.jpeg",
     tags: [
       "React",
       "Typescript",
