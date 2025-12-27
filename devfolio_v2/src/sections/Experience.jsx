@@ -8,6 +8,15 @@ const experiences = [
     technologies: ["Diploma in Computer Science & Full-Stack Web Development"],
     current: true,
   },
+  {
+    period: "2024 — 2025",
+    role: "Student",
+    company: "Cascia Hall Preparatory",
+    description:
+      "Attended Cascia Hall Preparatory School in Tulsa, Oklahoma, and graduated in May of 2021.",
+    technologies: ["High School Diploma"],
+    current: false,
+  },
 ];
 
 export const Experience = () => {
