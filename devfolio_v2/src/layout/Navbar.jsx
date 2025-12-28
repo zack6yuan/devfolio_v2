@@ -15,18 +15,22 @@ export const Navbar = () => {
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
-    }
+    };
 
     window.addEventListener("scroll", handleScroll);
 
     return () => window.removeEventListener("scroll", handleScroll);
-  }, [])
+  }, []);
   return (
-    <header className={`fixed top-0 left-0 right-0 transition-all duration-500 ${isScrolled ? "glass-strong py-3" : "bg-transparent py-5"} z-50`}>
+    <header
+      className={`fixed top-0 left-0 right-0 transition-all duration-500 ${
+        isScrolled ? "glass-strong py-3" : "bg-transparent py-5"
+      } z-50`}
+    >
       <nav className="container mx-auto px-6 flex items-center justify-between">
         <a
           href="#"
-          className="text-xl font-bold tracking-tight hover:text-primary"
+          className="text-xl font-bold tracking-tight hover:text-primary transition duration-400 ease-in-out"
         >
           ZY<span className="text-primary">.</span>
         </a>
@@ -37,7 +41,7 @@ export const Navbar = () => {
               <a
                 href={link.href}
                 key={index}
-                className="px-4 py-2 text-sm text-muted-foreground hover:text-foreground hover:bg-surface"
+                className="px-4 py-2 text-sm rounded-full text-muted-foreground hover:text-foreground hover:bg-surface transition duration-300 ease-in-out"
               >
                 {link.label}
               </a>
@@ -75,7 +79,9 @@ export const Navbar = () => {
                 {link.label}
               </a>
             ))}
-            <Button onClick={() => setIsMobileMenuOpen(false)}>Contact Me</Button>
+            <Button onClick={() => setIsMobileMenuOpen(false)}>
+              Contact Me
+            </Button>
           </div>
         </div>
       )}

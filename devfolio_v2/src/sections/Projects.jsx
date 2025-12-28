@@ -22,11 +22,20 @@ const projects = [
   {
     title: "Melodiic",
     description:
-      "Developed a visually refined, accessible music player UI that prioritizes seamless navigation across playlists and account features. By leveraging modern layout patterns and Bootstrap, I ensured full mobile-to-desktop responsiveness, while implementing cookie-based persistence for a consistent user experience. This project highlights my ability to build functional, high-performance interfaces.",
+      "I developed a visually refined, accessible music player UI that prioritizes seamless navigation across playlists and account features. By leveraging modern layout patterns and Bootstrap, I ensured full mobile-to-desktop responsiveness, while implementing cookie-based persistence for a consistent user experience. This project highlights my ability to build functional, high-performance interfaces.",
     image: "/melodiic.png",
     tags: ["HTML", "CSS", "TailwindCSS", "JavaScript"],
     link: "https://www.youtube.com/watch?v=nhwOezHkQ4c",
     github: "https://github.com/BoostedT/Melodiic?tab=readme-ov-file",
+  },
+  {
+    title: "NextJS Q&A Application",
+    description:
+      "I developed a dynamic community forum using Next.js and TypeScript designed to facilitate knowledge sharing. This project focuses on the core mechanics of social interaction—allowing users to categorize questions by topic, engage in discussions, and curate content through a real-time upvoting system. It demonstrates my ability to manage complex CRUD (Create, Read, Update, Delete) operations and maintain data integrity across a full-stack environment.",
+    image: "/nextjs.png",
+    tags: ["NextJS", "TypeScript", "JavaScript", "CSS"],
+    link: "https://atlas-nextjs-zyuan.vercel.app/",
+    github: "https://github.com/zack6yuan/atlas-nextjs",
   },
   {
     title: "Diinker (In Progress)",
