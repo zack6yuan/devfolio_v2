@@ -38,11 +38,10 @@ const projects = [
     github: "https://github.com/zack6yuan/atlas-nextjs",
   },
   {
-    title: "Diinker (In Progress)",
+    title: "Mojo (In progress)",
     description:
-      "I am currently developing an end-to-end IoT solution for pickleball players, synchronizing hardware components with a robust software suite. This project serves as a deep dive into the full development lifecycle, requiring a sophisticated blend of data processing, responsive UI design, and hardware-software synergy. It’s a showcase of my ability to translate complex physical movements into actionable digital insights.",
-    image: "/diinker.png",
-    tags: ["React", "TypeScript", "React Native", "Google Firebase", "Vercel", "Expo"],
+      "Most wellness apps feel like clinical trackers or digital nags. Mojo is different. I'm leveraging the same dopamine loops that make video games addictive, but redirecting that energy toward your physical and mental well-being.",
+    tags: ["NextJS", "React", "TypeScript", "React Native", "Google Firebase", "Vercel", "Expo"],
     link: "https://diinker-web.vercel.app",
     github: "https://www.github.com/Diinker",
   },
