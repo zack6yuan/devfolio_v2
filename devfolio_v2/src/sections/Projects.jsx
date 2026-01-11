@@ -38,12 +38,11 @@ const projects = [
     github: "https://github.com/zack6yuan/atlas-nextjs",
   },
   {
-    title: "Mojo (In progress)",
+    title: "Business Management Application",
+    image: "/interparts.png",
     description:
-      "Most wellness apps feel like clinical trackers or digital nags. Mojo is different. I'm leveraging the same dopamine loops that make video games addictive, but redirecting that energy toward your physical and mental well-being.",
-    tags: ["NextJS", "React", "TypeScript", "React Native", "Google Firebase", "Vercel", "Expo"],
-    link: "https://diinker-web.vercel.app",
-    github: "https://www.github.com/Diinker",
+      "Built with NextJS, TypeScript, and JSPDF, a web application built to manage customers and create new invoices for a business. This is a private application, please send me a message for more details.",
+    tags: ["NextJS", "TypeScript", "JSPDF", "Google Firebase", "Vercel"],
   },
 ];
 

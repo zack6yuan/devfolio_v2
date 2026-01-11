@@ -6,7 +6,7 @@ const experiences = [
     description:
       "My software engineering education at Atlas School, a 20-month peer and project-based program in Tulsa, Oklahoma, took me from the basics of C programming to the complexities of Full-Stack Web Development, covering Front-End, Back-End, and DevOps. Received my diploma, and graduated in December of 2025",
     technologies: ["Tulsa, Oklahoma"],
-    current: true,
+    current: false,
   },
   {
     period: "2024 — Present",
