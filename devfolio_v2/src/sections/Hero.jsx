@@ -20,7 +20,9 @@ const skills = [
   "jQuery",
   "Expo",
   "Vite",
-  "Figma"
+  "Figma",
+  "Adobe Photoshop",
+  "Adobe Premiere Pro"
 ];
 
 export const Hero = () => {
@@ -71,13 +73,13 @@ export const Hero = () => {
             <div className="animate-fade-in">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                Software Engineer + Full Stack Web Developer
+                UX & UI Designer + Full-Stack Web Developer
               </span>
             </div>
             
             <div className="space-y-4">
               <h1 className="text-4xl md:text-6xl 2xl:text-7xl font-bold leading-tight animate-fade-in animation-delay-100">
-                Engineering <span className="text-primary glow-text">digital</span>
+                Crafting <span className="text-primary glow-text">digital</span>
                 <br />
                 experiences with
                 <br />
@@ -86,9 +88,7 @@ export const Hero = () => {
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I'm Zack Yuan - a Full-Stack Web Developer from Tulsa,
-                Oklahoma. I specialize in React and React Native. I build
-                scalable, performant web applications that users love.
+                Hi, I&apos;m Zack Yuan. I&apos;m a UX/UI Designer & Full-Stack Developer who believes that a web application should be as beautiful as it is functional. Based in Tulsa, I use React and React Native to create digital experiences and bring visual stories to life.
               </p>
             </div>
 

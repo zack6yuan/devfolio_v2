@@ -61,7 +61,7 @@ export const Experience = () => {
             className="text-muted-foreground
            animate-fade-in animation-delay-200"
           >
-            A timeline of my education, to my career. A look at the milestones, projects, and roles that shaped my approach to software engineering.
+            A timeline of my education, to my career. A look at the milestones, projects, and roles that shaped my approach to design and development.
           </p>
         </div>
 

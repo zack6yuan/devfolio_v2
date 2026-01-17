@@ -1,27 +1,27 @@
-import { Code2, Lightbulb, Rocket, Users } from "lucide-react";
+import { Paintbrush, Zap, Glasses, RefreshCcw } from "lucide-react";
 
 const highlights = [
   {
-    icon: Code2,
-    title: "Clean Code",
+    icon: Paintbrush,
+    title: "User-Focused Design",
     description:
-      "Writing maintainable, scaleable code that stands the test of time.",
+      "Designing applications that don't just serve a purpose, but drive engagement.",
   },
   {
-    icon: Rocket,
-    title: "Performance",
-    description: "Optimizing code to deliver lightning-fast user experiences.",
+    icon: Glasses,
+    title: "Accessibility",
+    description: "I prioritize inclusive interfaces that ensure usability across all abilities, devices, and environments.",
   },
   {
-    icon: Users,
-    title: "Collaboration",
-    description: "Working closely with teams to bring ideas to life.",
+    icon: RefreshCcw,
+    title: "Lifecycle",
+    description: "Mastering the journey from the first wireframe to the final deployment, ensuring seamless UX and scalable code at every stage.",
   },
   {
-    icon: Lightbulb,
-    title: "Innovation",
+    icon: Zap,
+    title: "Optimization",
     description:
-      "Creating new features on the web with emerging, industry standard technologies.",
+      "Built for speed. I develop lightweight, performant applications that load instantly and run smoothly, ensuring users never lose momentum.",
   },
 ];
 
@@ -47,7 +47,7 @@ export const About = () => {
             <div className="space-y-6 text-muted-foreground animate-fade-in animation-delay-200 text-lg leading-relaxed">
               <p>
                 I bridge the gap between design and engineering. With a background in graphic design, 
-                I don’t just write code—I build interfaces that are technically robust and 
+                I don’t just write code, I build interfaces that are technically robust and 
                 instinctively easy to use.
               </p>
               <p>

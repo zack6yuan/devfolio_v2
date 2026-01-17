@@ -20,13 +20,13 @@ const projects = [
     github: "https://www.github.com/Aeroduel",
   },
   {
-    title: "Melodiic",
+    title: "Mojo (In Progress)",
     description:
-      "I developed a visually refined, accessible music player UI that prioritizes seamless navigation across playlists and account features. By leveraging modern layout patterns and Bootstrap, I ensured full mobile-to-desktop responsiveness, while implementing cookie-based persistence for a consistent user experience. This project highlights my ability to build functional, high-performance interfaces.",
-    image: "/melodiic.png",
-    tags: ["HTML", "CSS", "TailwindCSS", "JavaScript"],
-    link: "https://www.youtube.com/watch?v=nhwOezHkQ4c",
-    github: "https://github.com/BoostedT/Melodiic?tab=readme-ov-file",
+      "Mojo is an all-in-one productivity ecosystem designed to eliminate the mental drain caused overwhelming interfaces. Built with a UX philosophy, Mojo integrates task management, time tracking, and habit formation into a single, cohesive interface. By unifying these tools, Mojo helps users regain focus and manage their daily flow without the clutter of traditional enterprise software.",
+    image: "/Mojo-Web.png",
+    tags: ["NextJS", "React", "Tailwind", "Vercel"],
+    link: "",
+    github: "https://github.com/MojoTracker",
   },
   {
     title: "NextJS Q&A Application",
