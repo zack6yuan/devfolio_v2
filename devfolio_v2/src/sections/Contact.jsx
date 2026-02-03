@@ -235,9 +235,7 @@ export const Contact = () => {
                 <span className="font-medium">Currently Available</span>
               </div>
               <p className="text-muted-foreground text-sm">
-                I'm currently open to new opportunities and exciting projects.
-                Whether you need a full-time engineer or a contract developer,
-                let's talk!
+                I'm currently open to new opportunities and exciting projects. Drop me a line!
               </p>
             </div>
           </div>
