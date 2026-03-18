@@ -73,22 +73,19 @@ export const Hero = () => {
             <div className="animate-fade-in">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                UX & UI Designer + Full-Stack Web Developer
+                Full-Stack Web Developer / UX & UI Designer
               </span>
             </div>
             
             <div className="space-y-4">
               <h1 className="text-4xl md:text-6xl 2xl:text-7xl font-bold leading-tight animate-fade-in animation-delay-100">
-                Crafting <span className="text-primary glow-text">digital</span>
-                <br />
-                experiences with
-                <br />
+                Hi, I'm <span className="text-primary glow-text">Zack!</span><br />
                 <span className="font-serif italic font-normal text-white">
-                  technical precision.
+                  It's nice to meet you.
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I&apos;m Zack Yuan. I&apos;m a UX/UI Designer & Full-Stack Developer who believes that a web application should be as beautiful as it is functional. Based in Tulsa, I use React and React Native to create digital experiences and bring visual stories to life.
+                I'm a Web Developer rooted in software fundamentals, working at the intersection of modern tooling and AI-assisted development. I build with WordPress, React, and Claude Code — writing code that's efficient, maintainable, and built for the way development is evolving.
               </p>
             </div>
 
@@ -131,8 +128,8 @@ export const Hero = () => {
                 {/* Floating Badge */}
                 <div className="absolute -bottom-6 -right-6 glass rounded-xl px-4 py-3 animate-float z-20 shadow-xl border border-white/10">
                   <div className="flex items-center gap-3">
-                    <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse shadow-[0_0_10px_#22c55e]" />
-                    <span className="text-sm font-medium whitespace-nowrap">Available for work</span>
+                    <div className="w-3 h-3 bg-red-500 rounded-full animate-pulse shadow-[0_0_10px_#FF0000]" />
+                    <span className="text-sm font-medium whitespace-nowrap">Currently, Not Available</span>
                   </div>
                 </div>
                 {/* Stats Badge */}

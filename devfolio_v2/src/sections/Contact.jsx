@@ -94,13 +94,13 @@ export const Contact = () => {
             Get In Touch
           </span>
           <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground">
-            Ready to drive results{" "}
+            Let's stay{" "}
             <span className="font-serif italic font-normal text-white">
-              for your team.
+              connected.
             </span>
           </h2>
           <p className="text-muted-foreground animate-fade-in animation-delay-200">
-            Available for full-time or contract opportunities. Download my résumé above, or send a message to start the conversation.
+            I'm not actively looking for new roles right now, but I'm always happy to connect. Download my résumé above, or send a message to start the conversation.
           </p>
         </div>
 
@@ -130,12 +130,13 @@ export const Contact = () => {
               <div>
                 <label
                   htmlFor="email"
-                  type="email"
                   className="block text-sm font-medium mb-2"
                 >
                   Email
                 </label>
                 <input
+                  id="email"
+                  type="email"
                   required
                   placeholder="your@email.com"
                   value={formData.email}
@@ -231,11 +232,11 @@ export const Contact = () => {
             {/* Availability Card */}
             <div className="glass rounded-3xl p-8 border border-primary/30">
               <div className="flex items-center gap-3 mb-4">
-                <span className="w-3 h-3 bg-[#1eff00] rounded-full animate-pulse" />
-                <span className="font-medium">Currently Available</span>
+                <span className="w-3 h-3 bg-[#FF0000] rounded-full animate-pulse" />
+                <span className="font-medium">Currently, Not Available</span>
               </div>
               <p className="text-muted-foreground text-sm">
-                I'm currently open to new opportunities and exciting projects. Drop me a line!
+                I'm currently not available for new opportunities, but I'm always open to new connections. Drop me a line!
               </p>
             </div>
           </div>
