@@ -73,7 +73,7 @@ export const Hero = () => {
             <div className="animate-fade-in">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                Full-Stack Web Developer / UX & UI Designer
+                Web Developer · WordPress & React · AI-Augmented Workflows
               </span>
             </div>
             
@@ -85,7 +85,7 @@ export const Hero = () => {
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                I'm a Web Developer rooted in software fundamentals, working at the intersection of modern tooling and AI-assisted development. I build with WordPress, React, and Claude Code — writing code that's efficient, maintainable, and built for the way development is evolving.
+                I'm a Web Developer building client-ready websites at the intersection of modern tooling and AI-assisted development. I work with WordPress, React, and Claude Code — writing code that's efficient, maintainable, and built for the way development is evolving.
               </p>
             </div>
 

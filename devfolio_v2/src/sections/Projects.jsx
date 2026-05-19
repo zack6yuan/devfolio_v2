@@ -20,10 +20,10 @@ const projects = [
     github: "https://www.github.com/Aeroduel",
   },
   {
-    title: "Mojo (In Progress)",
+    title: "Ember (In Progress)",
     description:
-      "Mojo is an all-in-one productivity ecosystem designed to eliminate the mental drain caused overwhelming interfaces. Built with a UX philosophy, Mojo integrates task management, time tracking, and habit formation into a single, cohesive interface. By unifying these tools, Mojo helps users regain focus and manage their daily flow without the clutter of traditional enterprise software.",
-    image: "/Mojo-Web.png",
+      "Ember is an anonymous, community app for people to vent, find peer support, and connect with others who truly get it.",
+    image: "/ember.png",
     tags: ["NextJS", "React", "Tailwind", "Vercel"],
     link: "",
     github: "https://github.com/MojoTracker",

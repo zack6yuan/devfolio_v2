@@ -1,27 +1,27 @@
-import { Paintbrush, Zap, Glasses, RefreshCcw } from "lucide-react";
+import { Paintbrush, Zap, Braces, BrainCircuitIcon } from "lucide-react";
 
 const highlights = [
   {
+    icon: BrainCircuitIcon,
+    title: "AI-Powered Workflows",
+    description: "Building production-ready web experiences by integrating AI-powered workflows — particularly Claude Code — as a collaborative layer throughout my development process.",
+  },
+  {
     icon: Paintbrush,
-    title: "User-Focused Design",
+    title: "WordPress Development",
     description:
-      "Designing applications that don't just serve a purpose, but drive engagement.",
+      "Building and maintaining client-facing sites using core plugins such as ACF, Gravity Forms, and WooCommerce on managed hosting like Kinsta.",
   },
   {
-    icon: Glasses,
-    title: "Accessibility",
-    description: "I prioritize inclusive interfaces that ensure usability across all abilities, devices, and environments.",
-  },
-  {
-    icon: RefreshCcw,
-    title: "Lifecycle",
-    description: "Mastering the journey from the first wireframe to the final deployment, ensuring seamless UX and scalable code at every stage.",
+    icon: Braces,
+    title: "API & Third-Party Integrations",
+    description: "Connecting forms, CRMs, payment systems, and external services into cohesive web experiences.",
   },
   {
     icon: Zap,
-    title: "Optimization",
+    title: "Performance & Deployment",
     description:
-      "Built for speed. I develop lightweight, performant applications that load instantly and run smoothly, ensuring users never lose momentum.",
+      "Managing site health, hosting environments, and production deployments with a focus on speed and reliability for service-based clients.",
   },
 ];
 
@@ -38,7 +38,7 @@ export const About = () => {
               </span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold leading-tight animate-fade-in animation-delay-100 text-secondary-foreground">
-              Developing digital products
+              I craft digital products
               <span className="font-serif italic font-normal text-white">
                 {" "}
                 that feel natural.
@@ -46,8 +46,8 @@ export const About = () => {
             </h2>
             <div className="space-y-6 text-muted-foreground animate-fade-in animation-delay-200 text-lg leading-relaxed">
               <p>
-                I bridge the gap between design and engineering. With a background in graphic design, 
-                I don’t just write code, I build interfaces that are technically robust and 
+                I bridge the gap between design and engineering.
+                I don’t just ship code, I ensure the interfaces I build are technically robust and 
                 instinctively easy to use.
               </p>
               <p>

@@ -4,7 +4,7 @@ const experiences = [
     role: "Junior Web Developer",
     company: "Leadline Marketing - Tulsa, Oklahoma",
     description:
-      "Design, develop, and maintain client-facing WordPress websites using modern tooling and managed hosting to deliver fast, reliable, and visually polished web solutions.",
+      "Design, develop, and maintain client-facing websites and internal tools using modern workflows and managed hosting to deliver fast, reliable, and visually polished solutions.",
     technologies: ["Claude Code", "WordPress", "Kinsta", "YooTheme", "Docker"],
     logo: "/leadline-logo.png",
     current: true,
